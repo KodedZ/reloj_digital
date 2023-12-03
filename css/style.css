@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+}
+
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  margin-top: 250px;
+  border: 5px solid aqua;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.hora, .minuto, .segundo {
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px aqua;
+  color: white;
+  position: relative;
+  top: -10px;
+  left: 50px;
+}
+
+.dividir {
+  position: relative;
+  top: -15px;
+  left: 50px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 5px aqua;
+}
+
+.dia, .mes, .año, .separar {
+  position: relative;
+  top: 10%;
+  left: -30%;
+  font-size: 1.3em;
+  color: white;
+  text-shadow: 0px 0px 5px aqua;
+}
+
+/*# sourceMappingURL=style.css.map */
